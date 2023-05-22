@@ -1,0 +1,44 @@
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    background-color: #336ebf;
+    color: #fff;
+    height: 80px;
+    width: 100%;
+
+}
+
+.sub-menu{
+    position: absolute;
+    right: 0.6%;
+    display: none;
+     background-color: #336ebf;
+     color: #fff;
+     width: 200px;
+     height: 100px;
+    
+     margin-top: 0px;
+   
+}
+.logo, .userMainPerfil{
+    cursor: pointer;
+}
+.userMainPerfil{
+    margin-right: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    align-items: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+li{
+    list-style: none;
+}
+
+.form{
+    display: flex;
+}
